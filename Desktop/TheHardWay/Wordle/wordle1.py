@@ -56,6 +56,6 @@ def wordle_blitz(five_words1, guess1, guess2, guess3):
     print(count)
     print('Correct tries: ' + str(right))
     print('Incorrect tries: ' + str(wrong))
-    print('Percent correct: {:.0%}'.format(right/10000))
+    print('Percent correct: {:.2%}'.format(right/10000))
 
-wordle_blitz(five_words, 'brick', 'stomp', 'fudge')
+wordle_blitz(five_words, 'brick', 'stomp', 'nudge')
